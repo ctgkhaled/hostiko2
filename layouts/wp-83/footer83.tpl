@@ -1,98 +1,77 @@
-        <!--Footer Section Starts Here-->
-
-<section class="footer-section">
-    <figure class="footer-backgroundimage mb-0">
-        <img src="{$WEB_ROOT}/templates/{$template}/layouts/wp-{$layoutnotset}/assets/images/footer-backgroundimage{$layoutnotset}.png"/>
-    </figure>
-    <figure class="footer-background mb-0">
-        <img src="{$WEB_ROOT}/templates/{$template}/layouts/wp-{$layoutnotset}/assets/images/footer-bg{$layoutnotset}.png"/>
-    </figure>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="contact-section">
-                    <div class="content">
-                        <h3>Build Your Website with Hostiko</h3>
-                        <p class="text-size-18 mb-0">From professional business to enterprise, we’ve got you covered!</p>
-                    </div>                                
-                    <div class="button">
-                        <a class="get_started text-decoration-none" href="https://hostiko.com/layout{$layoutnotset}/contact">Get Started<i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="middle-portion">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                    <div class="logo-content">
-                         <a href="https://hostiko.com/layout{$layoutnotset}">
-                            <figure class="footer-logo">
-                               <img src="{$WEB_ROOT}/templates/{$template}/layouts/wp-{$layoutnotset}/assets/images/footer-logo{$layoutnotset}.png"/>
-                            </figure>
-                        </a>
-                        <p class="text-size-14 text">Quis autem vel eum iure reprehenderit rui in ea voluptate velit esse...</p>                        
-                        <ul class="list-unstyled mb-0 social-icons">
-                            <li class="circle"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="circle"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li class="circle"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="links">
-                        <h4 class="heading">Navigation</h4>
-                        <ul class="list-unstyled mb-0 list1">                            
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}" class=" text-size-14 text text-decoration-none">Home</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/about" class=" text-size-14 text text-decoration-none">About</a></li>
-                            <li><a href="https://designingmedia.com/support" class=" text-size-14 text text-decoration-none">Support</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/domain" class=" text-size-14 text text-decoration-none">Domain</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/contact" class=" text-size-14 text text-decoration-none">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="use-link links">
-                        <h4 class="heading">Useful Links</h4>
-                        <ul class="list-unstyled mb-0 list2">
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/shared" class=" text-size-14 text text-decoration-none">Shared Hosting</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/dedicated" class=" text-size-14 text text-decoration-none">Dedicated Hosting</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/reseller" class=" text-size-14 text text-decoration-none">Reseller Hosting</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/vps" class=" text-size-14 text text-decoration-none">VPS Hosting</a></li>
-                            <li><a href="https://hostiko.com/layout{$layoutnotset}/blog" class=" text-size-14 text text-decoration-none">Blogs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                    <div class="icon">
-                        <h4 class="heading">Contact us</h4>
-                        <ul class="list-unstyled mb-0">
-                            <li class="text">
-                                <i class="location fas fa-map-marker-alt"></i>
-                                <p class="address mb-0">121 King Street, Melbourne Victoria 3000 Australia</p>
-                            </li>
-                            <li class="text">
-                                <i class="fas fa-phone-volume"></i>
-                                <a href="tel:+61383766284" class="text-decoration-none">+61 3 8376 6284</a>
-                            </li>
-                            <li class="text text2">
-                                <i class="far fa-envelope"></i>
-                                <a href="mailto:info@hostiko.com" class="text-decoration-none">Info@hostiko.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <figure class="footer-imgone mb-0">
-        <img src="{$WEB_ROOT}/templates/{$template}/layouts/wp-{$layoutnotset}/assets/images/footer-fish-img-one{$layoutnotset}.png"/>
-    </figure>
-    <figure class="footer-imgtwo mb-0">
-        <img src="{$WEB_ROOT}/templates/{$template}/layouts/wp-{$layoutnotset}/assets/images/footer-fish-img-two{$layoutnotset}.png"/>
-    </figure>
-    <figure class="footer-imgthree mb-0">
-        <img src="{$WEB_ROOT}/templates/{$template}/layouts/wp-{$layoutnotset}/assets/images/footer-fish-img-three{$layoutnotset}.png"/>
-    </figure>
-</section>
-
+        <!--Footer Section Starts Here-->
+        <section class="footer-box w-100 padding_top_70 padding_bottom_70">
+            <!--Container-->
+            <div class="container">
+                <!--Row-->
+                <div class="row padding_bottom_30">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 footer_box">
+                        <h5 class="font-18 footer-heading mb-20">Our Services</h5>
+                        <ul class="font_size_14 line_height_22 font_weight_400 footer_links list-inline">
+                            <li><a href="hosting.html">Shared Hosting</a></li>
+                            <li><a href="vps_hosting.html">Vps Hosting</a></li>
+                            <li><a href="reseller.html">Reseller Hosting</a></li>
+                            <li><a href="dedicated_hosting.html">Dedicated Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 footer_box">
+                        <h5 class="font-18 footer-heading mb-20">Company</h5>
+                        <ul class="font_size_14 font_weight_400 line_height_22 footer_links list-inline">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="network.html">Networks</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 footer_box">
+                        <h5 class="font-18 footer-heading mb-20">Support</h5>
+                        <ul class="font_size_14 font_weight_400 line_height_22 footer_links list-inline">
+                            <li><a href="contact">Contact Us</a></li>
+                            <li><a href="//akdesigner.com/whmcs-templates/knowledgebase?systpl=hostiko">Knowledge Base</a></li>
+                            <li><a href="//akdesigner.com/whmcs-templates/cart.php?systpl=hostiko">Submit A Ticket</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 footer_box">
+                        <h5 class="font-18 footer-heading mb-20">Get In Touch With Us</h5>
+                        <ul class="footer_info list-inline">
+                            <li><a href="#">Address:</a><span> Envato Labs, Behind Alis Street, Melbourne, Austrila.</span></li>
+                            <li><a href="Mailto:info@hostiko.com">Email: <span> info@hostiko.com</span></a></li>
+                            <li><a href="tel:(+1)1234567890">Phone: <span> (+1)123 456 7890</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 footer_box">
+                        <h5 class="font-18 footer-heading mb-20 font-bold text-uppercase"">Legal</h5>
+                        <ul class="font_size_14 font_weight_400 line_height_22 footer_links list-inline">
+                            <li><a href="domain.html">Domain</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="acceptable_use_policy.html">Acceptable Use Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 footer_box">
+                        <h5 class="font-18 footer-heading mb-20">whmcs</h5>
+                        <ul class="font_size_14 font_weight_400 line_height_22 footer_links list-inline">
+                            <li><a href="//akdesigner.com/whmcs-templates/announcements?systpl=hostiko">Announcements</a></li>
+                            <li><a href="//akdesigner.com/whmcs-templates/cart.php?a=add&domain=register&systpl=hostiko">Register Domain</a></li>
+                            <li><a href="//akdesigner.com/whmcs-templates/cart.php?a=add&domain=transfer&systpl=hostiko">Transfer Domain</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 footer_box col-xs-4 footer_social_links_box">
+                        <h5 class="font-18 footer-heading mb-20">Social Links</h5>
+                        <ul class="font_size_14 font_weight_400 line_height_22  list-inline footer_social_links list-inline">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 footer_logo_box">
+                        <figure class="padding_bottom_10">
+                            <a href="#"><img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/layouts/wp-52/assets/images/logo52.png" /></a>
+                        </figure>
+                        <h6 class="copyright">Copyright @ 2021 <span><a href="#">Hostiko.com</a></span> <br> All RIght Reserved</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--Footer Section Ends Here-->
