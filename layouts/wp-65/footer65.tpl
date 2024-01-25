@@ -52,7 +52,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-3 footer_box col-xs-4 footer_social_links_box">
                         <h5 class="font-18 footer-heading mb-20">Social Links</h5>
                         <ul class="font_size_14 font_weight_400 line_height_22  list-inline footer_social_links list-inline">
-                            <li><a href="https://www.facebook.com/https://www.facebook.com/digitalnodi"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/digitalnodi"><i class="fab fa-facebook"></i></a></li>
                             <li><a href="https://wa.me/message/NVQHP3UFMP6TM1"><i class="fab fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
